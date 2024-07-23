@@ -1,0 +1,22 @@
+[project]
+name = "CV_App_Example"
+version = "0.1.0"
+description = "use example of the WGCM cv service api"
+authors = [
+    {name = "TROUSSELLIER Laurent", email = "laurent.troussellier@ipsl.fr"},
+]
+dependencies = [
+    "pytest>=8.3.1",
+    "requests>=2.32.3",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
